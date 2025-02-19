@@ -1,0 +1,38 @@
+/*******global.css**************************************************************/
+
+* { font-family:'Noto Sans TC','微軟正黑體'; box-sizing: border-box;}
+
+html{ height:100%; scroll-behavior:smooth;/* 錨點滾動動畫*/
+-webkit-text-size-adjust:none;/*修正旋轉後文字會變大*/
+-webkit-overflow-scrolling:touch;/*修正ios滾動順暢*/
+}
+
+body { font-size:16px; line-height:1.6; color:#000;}
+
+ul{ list-style:none;}
+
+/*預設連結狀態*/
+a:link, a:visited { color: #231815; text-decoration:none;}
+a:hover, a:active { color: #fc3e3e;}
+
+/*圖片無框*/
+a img { border:none;}
+/*去除圖片底下空白*/
+img{ vertical-align: bottom;} 
+
+/*h標題設定*/
+h1{ font-size:28px; font-weight:normal;}
+h2{ font-size:24px; font-weight:normal;}
+h3{ font-size:22px; font-weight:normal;}
+h4{ font-size:20px; font-weight:normal;}
+
+/*清除 clearfix*/
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+
+
+
+
+
+
+
+
